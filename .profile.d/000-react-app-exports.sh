@@ -1,0 +1,2 @@
+export REACT_APP_APP_ID=4a5fcca2
+export REACT_APP_APP_KEY=1ec16e6a559e60c49539ec4f7bdea4e3

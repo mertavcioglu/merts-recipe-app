@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#root {
+  background: url(./img/background-image.jpg) repeat fixed;
+}
+
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  opacity: 0.9;
+  text-align: center;
+  display: block;
+}
+
+.logo {
+  width: 225px;
+  height: 225px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  font-size: 1.75rem;
+  margin: 0;
+  padding: 0;  
+  text-align: center;
+}
+
+.search-form {
+  margin: 0;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  margin: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.recipe-div {
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  align-items: center;
+  min-width: 30%;
+}
+
+.recipes {
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ordered-list {
+  padding: 0;
+  list-style: none;
+}
+
+.calories-text {
+  font-weight: 450;
+}
+
+.calories-number {
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 500;
+}
+
+.calories-p {
+  margin-bottom: 0px;
+}
+
+.recipe-image {
+  z-index: 10;
+  opacity: 1;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
+.copyright{
+  font-size: 1rem;
+  color: rgb(44, 37, 37);
+  margin: 20px 0 0 0;
+}
+
+.copyright-name {
+  font-weight: 600;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .recipes {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .recipe-div {    
+    min-width: 90%;
+    flex-direction: row;
+  }
+}
