@@ -1,5 +1,7 @@
 # recipe-app
 
+https://merts-recipe-app.herokuapp.com/
+
 This is my Recipe App 🍔
 
 It uses the API from: https://www.edamam.com 
