@@ -8,4 +8,4 @@ It uses the API from: https://www.edamam.com
 
 Here is a screenshot of the page:
 
-![screenshot](https://user-images.githubusercontent.com/34686131/84260088-1bb05480-ab22-11ea-9c3a-c92b5586e66d.png)
+![screenshot](https://user-images.githubusercontent.com/34686131/84485402-c51f5380-aca4-11ea-88f6-cfc569c33aeb.png)
