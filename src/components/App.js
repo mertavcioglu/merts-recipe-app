@@ -23,8 +23,6 @@ function App() {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`)
     const data = await response.json()
     setRecipes(data.hits)
-    console.log(data);
-    console.log(data.hits);
   }
 
   function getSearch(event) {
@@ -42,7 +40,10 @@ function App() {
 
       <Header />
 
-      <Form getSearch={getSearch} onChange={handleChange} />
+      <Form
+        getSearch={getSearch}
+        onChange={handleChange}
+      />
 
       <div className="recipes">
         {recipes.map((recipe, index) => {
