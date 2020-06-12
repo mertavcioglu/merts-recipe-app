@@ -6,6 +6,7 @@ function Form(props) {
 
     <form onSubmit={props.getSearch} className="search-form">
       <input
+        id="form"
         autoFocus
         className="search-bar"
         onChange={props.onChange}
