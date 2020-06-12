@@ -32,5 +32,13 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "proxy": {
+    "dev": {
+      "target": "http://localhost:3000"
+    },
+    "prod": {
+      "target": "https://merts-recipe-app.herokuapp.com/"
+    }
+  }
 }
