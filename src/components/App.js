@@ -38,7 +38,6 @@ function App() {
 
   return (
     <div className="App">
-
       <Header />
 
       <Form
@@ -62,7 +61,6 @@ function App() {
       </div>
 
       <Footer />
-
     </div>
   );
 }

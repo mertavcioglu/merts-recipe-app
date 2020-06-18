@@ -15,7 +15,6 @@ function Form(props) {
           onChange={props.onChange}
           value={props.search}
         />
-        <button className="btn btn-danger" type="submit">Search</button>
       </form>
     </div>
   )
