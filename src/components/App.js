@@ -13,7 +13,7 @@ function App() {
 
   const [recipes, setRecipes] = useState([])
   const [search, setSearch] = useState("")
-  const [query, setQuery] = useState("chicken")
+  const [query, setQuery] = useState("")
 
   useEffect(() => {
     getRecipes()
@@ -25,10 +25,10 @@ function App() {
     setRecipes(data.hits)
   }
 
-  function getSearch(event) {
+  const getSearch = e => {
     setQuery(search);
     setSearch("")
-    event.preventDefault();
+    e.preventDefault();
     document.getElementById("form").value = ""
   }
 
@@ -42,8 +42,8 @@ function App() {
       <Header />
 
       <Form
-        getSearch={getSearch}
         onChange={handleChange}
+        getSearch={getSearch}
       />
 
       <div className="recipes">
